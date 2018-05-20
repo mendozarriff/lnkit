@@ -1,0 +1,83 @@
+.links-list-item{
+    background-color: $white;
+    font-size: 1.5rem;
+    margin-bottom: $space;
+    padding: $space;
+}
+
+.links-list-item__rendered-stats span{
+    color: $dark-grey;
+}
+
+.links-list-item__title{
+    border-bottom: 1px solid #979797;
+    display: $display-flex;
+    font-size: $base-font-size + .2;
+    justify-content: $space-between;
+    padding-bottom: $space - 1;
+}
+
+.links-list-item__short-url{
+    color: $dark-grey;
+    display: $display-flex;
+    font-size: $base-font-size + .4;
+    justify-content: flex-start;
+    margin: ($space - 1) 0 ($space * 2) 0;
+}
+
+.links-list-item__rendered-stats{
+    margin-top: $space;
+    display: $display-flex;
+    justify-content: $space-between;
+}
+
+.links-list-item__more-info-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.links-list-item__overlay {
+    padding: 0;
+    width: 20rem;
+    height: 13rem;
+    display: block;
+    text-align: left;
+    outline: none;
+}
+
+.links-list-item__overlay button {
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid $dark-grey;
+    background: transparent;
+    width: 100%;
+    text-align: left;
+    padding: $space - 1;
+    cursor: pointer;
+}
+
+.links-list-item__overlay button:nth-child(2) {
+    border-top: 1px solid $dark-grey;
+    padding-right: $space;
+}
+
+.links-list-item__overlay button:nth-child(3) {
+    border-bottom: none;
+}
+
+.links-list-item__overlay a {
+    color: black;
+    border: none;
+    display: inline-block;
+    width: 100%;
+    padding: 1.3rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $base-font-size - .2;
+}
+
+.links-list-item__overlay span {
+    font-size: $base-font-size + .6;
+    padding-right: $space - 1;
+}
+

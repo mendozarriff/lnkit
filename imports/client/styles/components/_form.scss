@@ -1,0 +1,18 @@
+@mixin form{
+    border-radius: 20px;
+    display: $display-flex;
+    flex-direction: $flex-direction-column;
+    padding: $space + .4;
+    width: 24rem;
+}
+.form{
+    @include form;
+}
+
+.form h2{
+    padding-bottom: $space - 1;
+}
+
+.form__error-message{
+    padding-bottom: $space - 1;
+}

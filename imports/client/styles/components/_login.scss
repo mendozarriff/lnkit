@@ -1,0 +1,4 @@
+.login .boxed-view__box {
+    background-image: url('/images/lnkit-login-background.jpg');
+    @include boxed-view;
+}

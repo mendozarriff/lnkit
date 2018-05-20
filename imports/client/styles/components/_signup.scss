@@ -1,0 +1,4 @@
+.signup .boxed-view__box {
+    background-image: url('/images/lnkit-signup-background.jpg');
+    @include boxed-view;
+}

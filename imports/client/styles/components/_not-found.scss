@@ -1,0 +1,22 @@
+.not-found .boxed-view__box {
+    background-image: url('/images/not-found-background.jpg');
+    color: $white;
+    text-align: center;
+    @include boxed-view;
+}
+
+.not-found__content {
+    padding-top: 20%;
+}
+
+.not-found__content a {
+    color: $white;
+    transition: all .5s;
+}
+.not-found__content a:hover{
+    text-decoration: underline;
+}
+
+.not-found__content h1 {
+    padding-bottom: 20px;
+}

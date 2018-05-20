@@ -1,0 +1,42 @@
+.nav-bar{
+    background-color:$primary-color;
+    color: $white;
+    height: 80px;
+    width: 100%;
+}
+
+.nav-bar__button {
+    border: 1px solid $white;
+    background: transparent;
+    padding: 1rem 3rem;
+    color: $white;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.nav-bar__button:hover{
+    background: $white;
+    color: $primary-color;
+}
+
+.navbar__button__section{
+    display: $display-flex;
+    align-items: baseline;
+}
+
+.navbar__button__section p{
+    padding-right: 1rem;
+}
+
+.nav-bar__content{
+    display: $display-flex;
+    justify-content: $space-between;
+    margin: 0 auto;
+    max-width: $content-width;
+    padding-top: 20px;   
+}
+.nav-bar__content a{
+    color: $white;
+}
+

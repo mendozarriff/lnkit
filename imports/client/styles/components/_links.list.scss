@@ -1,0 +1,15 @@
+.links-list{
+    margin: $space 0 $space 0;
+}
+
+.links-list__title{
+    display: $display-flex;
+    justify-content: $space-between;
+    margin-bottom: $space;
+}
+
+.item {
+    display: $display-flex;
+    font-size: 2rem;
+    justify-content: center;
+}

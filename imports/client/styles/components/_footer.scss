@@ -1,0 +1,15 @@
+.footer{
+    bottom: 0;
+    left: 0;
+    background-color:$primary-color;
+    height: 125px;
+    display: $display-flex;
+    justify-content: $center;
+    align-items: $center;
+    color: lightgrey;
+    font-size: $base-font-size - .4;
+}
+
+.footer h3{
+    font-weight: 300;
+}

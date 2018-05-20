@@ -1,0 +1,10 @@
+.lnkit-area{
+    margin: 0 auto;
+    max-width: $content-width;
+}
+
+.lnkit-area__buttons{
+    display: $display-flex;
+    justify-content: $space-between;
+    margin: $space 0 $space 0;
+}
