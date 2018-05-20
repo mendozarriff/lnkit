@@ -42,7 +42,7 @@ class Login extends React.Component{
                         <form className="form" onSubmit={this.onSubmit.bind(this)} noValidate>
                             <h2>Login to Lnkit</h2>
                             {this.state.error ? <p className="form__error-message">{this.state.error}</p> : undefined}
-                            <input ref="email" type="email" name="email" placeholder="Email" autoFocus/>
+                            <input autoComplete="email" ref="email" type="email" name="email" placeholder="Email" autoFocus/>
                             <input autoComplete="off"  ref="password" type="password" name="password" placeholder="Password" />
                             <button className="button"><span>Login </span></button>
                         </form>

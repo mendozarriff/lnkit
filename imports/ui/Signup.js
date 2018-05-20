@@ -47,7 +47,7 @@ class Signup extends React.Component {
                             <h2>Join LnkiT</h2>
                             {this.state.error ? <p className="form__error-message">{this.state.error}</p> : undefined}
                             <input ref="username" type="text" name="username" placeholder="Username" autoFocus/>
-                            <input ref="email" type="email" name="email" placeholder="Email"/>
+                            <input autoComplete="email" ref="email" type="email" name="email" placeholder="Email"/>
                             <input autoComplete="off" ref="password" type="password" name="password" placeholder="Password"/>
                             <button className="button"><span>Crate an Account</span></button>
                         </form>
