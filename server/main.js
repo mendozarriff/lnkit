@@ -19,6 +19,6 @@ Meteor.startup(() => {
     }else{
       next();
     }
-  })
+  });
   // code to run on server at startup
 });
