@@ -27,6 +27,9 @@
 
 .navbar__button__section p{
     padding-right: 1rem;
+    @include small-devices{
+        display: none;      
+    }
 }
 
 .nav-bar__content{
@@ -34,9 +37,15 @@
     justify-content: $space-between;
     margin: 0 auto;
     max-width: $content-width;
-    padding-top: 20px;   
+    padding-top: 20px;
+
+    @include tablets{
+         padding: 20px $space;
+    }   
 }
 .nav-bar__content a{
     color: $white;
 }
+
+
 

@@ -1,13 +1,14 @@
-@mixin boxed-view{
-    background-position:$alignment-center;
+
+@mixin boxed-view {
+    background-position: $alignment-center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:$view-port-100vh;
+    height: $view-port-100vh;
     width: 100%;
     position: relative;
 }
 
-.boxed-view__form { 
+.boxed-view__form {
     left: 50%;
     text-align: $alignment-center;
     top: 40%;
@@ -15,29 +16,36 @@
     position: absolute;
 }
 
-.boxed-view-modal{
-   align-items: $alignment-center;
-    background-color:rgba(255, 255, 255, 0.9);
-   display: $display-flex;
-   justify-content: $alignment-center;
-   height: $view-port-100vh;
-   width: $view-port-100vw;
-   outline: none;
+.boxed-view-modal {
+    align-items: $alignment-center;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: $display-flex;
+    justify-content: $alignment-center;
+    height: $view-port-100vh;
+    width: $view-port-100vw;
+    outline: none;
 }
 
-.boxed-view-modal__box{
+.boxed-view-modal__box {
     background-color: white;
-    padding: 2.4rem;
+    padding:2rem;
     text-align: $alignment-center;
     flex-direction: $flex-direction-column;
     justify-content: $alignment-center;
     display: $display-flex;
     border: 1px solid gray;
-     outline: none;
+    outline: none;
+    // @include small-devices{
+    //     border: none;
+    //     position: absolute;
+    //     top: 0;
+    // }
+}
+#remove-links{
+    background: blue;
 }
 
-
-#hide::before{
+#hide::before {
     background: url('/images/eye-shut.png');
     background-size: 20px;
     display: inline-block;
@@ -47,7 +55,7 @@
     content: '';
 }
 
-.boxed-view--modal{
+.boxed-view--modal {
     position: fixed;
     top: 0;
     left: 0;

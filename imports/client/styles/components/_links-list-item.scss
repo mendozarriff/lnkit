@@ -25,6 +25,12 @@
     margin: ($space - 1) 0 ($space * 2) 0;
 }
 
+.links-list-item__short-url p {
+    @include small-devices{
+        font-size: $base-font-size - .2;
+    }
+}
+
 .links-list-item__rendered-stats{
     margin-top: $space;
     display: $display-flex;

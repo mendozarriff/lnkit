@@ -1,6 +1,9 @@
 .lnkit-area{
     margin: 0 auto;
     max-width: $content-width;
+    @include tablets{
+        padding: 0 $space;
+    }
 }
 
 .lnkit-area__buttons{
